@@ -1,14 +1,29 @@
---->  NAND gate, a fundamental building block in digital electronics, performs the inverse of the AND operation, outputting a high signal unless all its inputs are high. 
-It is widely used in constructing various logic circuits due to its functional completeness, allowing any Boolean function to be implemented.
+The **NAND gate** (NOT AND gate) is one of the fundamental building blocks in digital electronics. It is a combination of an AND gate followed by a NOT gate, meaning its output is the negation (inversion) of the AND gate output.
 
-The Boolean expression for a NAND gate with inputs \(A\) and \(B\) is:
+### Truth Table:
+| Input A | Input B | Output (Y) |
+|---------|---------|------------|
+|    0    |    0    |      1     |
+|    0    |    1    |      1     |
+|    1    |    0    |      1     |
+|    1    |    1    |      0     |
 
-![image](https://github.com/user-attachments/assets/b1388677-ddca-4f70-aa43-ae9806af6adf)
+### Logic Symbol:
+The NAND gate is typically represented by the AND gate symbol with a small circle (representing NOT) at the output.
 
-This represents the logical NOT of the AND operation between \(A\) and \(B\).
 
+### Boolean Expression:
+The Boolean expression for a NAND gate is:
+\[ Y = A.B' \]
+Where:
+- \( A . B \) represents the AND operation.
+- denotes the NOT operation.
 
-![image](https://github.com/user-attachments/assets/e5235e16-e476-40fa-9d0e-fdc926a77407)
+### Applications:
+- **Universal Gate**: NAND gates can be combined to create any other logic gate, including AND, OR, NOT, NOR, XOR, and XNOR.
+- **Flip-Flops**: Used in memory circuits like SR and JK flip-flops.
+- **Control Systems**: Often used in digital control logic.
+- **Integrated Circuits**: Found in microcontrollers, processors, and digital systems.
 
 **SCHEMATIC:-**
 
