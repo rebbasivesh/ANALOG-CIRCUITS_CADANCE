@@ -34,7 +34,8 @@ Simulation: Use Spectre or ADE (Analog Design Environment) to simulate the schem
 
 **LAYOUT**
 
-![LAYOUT](https://github.com/user-attachments/assets/d775522c-5dcf-4dd4-a2f7-134369064df2)
+![Screenshot 2024-12-31 195411](https://github.com/user-attachments/assets/509a279c-f50e-4ed5-9ed5-02ca7e028284)
+
 
 **DRC_RUN**
 
